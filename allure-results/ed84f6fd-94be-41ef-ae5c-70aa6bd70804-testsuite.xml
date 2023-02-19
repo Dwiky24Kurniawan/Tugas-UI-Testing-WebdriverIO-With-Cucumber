@@ -1,0 +1,140 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676822699773' stop='1676822700940'>
+    <name>To test the login functionality in "kasirAja": i am login with valid credentials</name>
+    <title>To test the login functionality in "kasirAja": i am login with valid credentials</title>
+    <test-cases>
+        <test-case start='1676822699773' status='passed' stop='1676822699775'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676822699775' status='broken' stop='1676822700936'>
+            <name>Given i am on the login page</name>
+            <title>Given i am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps>
+                <step start='1676822699778' status='broken' stop='1676822700936'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1676822699778' status='passed' stop='1676822699813'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='cc99b51b-c1c0-4b12-8628-f306a44dc974-attachment.json' type='application/json' size='47'/>
+                                <attachment title='Response' source='3b6bd78a-7997-4630-a26b-06f9d7c9e539-attachment.json' type='application/json' size='25'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1676822699999' status='passed' stop='1676822700199'>
+                            <name>GET /session/:sessionId/title</name>
+                            <title>GET /session/:sessionId/title</title>
+                            <attachments>
+                                <attachment title='Response' source='05bea829-33b9-475b-b1f4-9452a02d2a5f-attachment.json' type='application/json' size='25'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1676822700325' status='passed' stop='1676822700530'>
+                            <name>GET /session/:sessionId/title</name>
+                            <title>GET /session/:sessionId/title</title>
+                            <attachments>
+                                <attachment title='Response' source='b869a99e-f2e7-4b91-926c-ce99783e3cfc-attachment.json' type='application/json' size='25'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1676822700708' status='broken' stop='1676822700936'>
+                            <name>GET /session/:sessionId/title</name>
+                            <title>GET /session/:sessionId/title</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: unknown error: net::ERR_INTERNET_DISCONNECTED</message>
+                <stack-trace>unknown error: unknown error: net::ERR_INTERNET_DISCONNECTED
+                  (Session info: chrome=110.0.5481.104)
+                    at getErrorFromResponseBody (file:///D:/SANBERCODE/QA-AUTOMATION/TUGAS-UI-AUTOMATION-CUCUMBER/wdio-with-cucumber/node_modules/webdriver/build/utils.js:194:12)
+                    at NodeJSRequest._request (file:///D:/SANBERCODE/QA-AUTOMATION/TUGAS-UI-AUTOMATION-CUCUMBER/wdio-with-cucumber/node_modules/webdriver/build/request/index.js:164:23)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (file:///D:/SANBERCODE/QA-AUTOMATION/TUGAS-UI-AUTOMATION-CUCUMBER/wdio-with-cucumber/node_modules/@wdio/utils/build/shim.js:72:29)
+                    at async Browser.wrapCommandFn (file:///D:/SANBERCODE/QA-AUTOMATION/TUGAS-UI-AUTOMATION-CUCUMBER/wdio-with-cucumber/node_modules/@wdio/utils/build/shim.js:72:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676822700937' status='pending' stop='1676822700937'>
+            <name>When i input email as "toko@dwiky.com" and password as "toko24dwiky"</name>
+            <title>When i input email as "toko@dwiky.com" and password as "toko24dwiky"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676822700938' status='pending' stop='1676822700938'>
+            <name>And i click on button "login"</name>
+            <title>And i click on button "login"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676822700939' status='pending' stop='1676822700939'>
+            <name>Then i must navigate to dashboard page</name>
+            <title>Then i must navigate to dashboard page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676822700939' status='passed' stop='1676822700940'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

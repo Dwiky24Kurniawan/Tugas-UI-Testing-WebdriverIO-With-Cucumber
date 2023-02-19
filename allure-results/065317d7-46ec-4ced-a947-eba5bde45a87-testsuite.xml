@@ -1,0 +1,194 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676823244432' stop='1676823248924'>
+    <name>To test the login functionality in "kasirAja": i am login with invalid credentials</name>
+    <title>To test the login functionality in "kasirAja": i am login with invalid credentials</title>
+    <test-cases>
+        <test-case start='1676823244435' status='passed' stop='1676823244439'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676823244439' status='passed' stop='1676823247562'>
+            <name>Given i am on the login page</name>
+            <title>Given i am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps>
+                <step start='1676823244450' status='passed' stop='1676823247552'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='5737469d-46fc-42ca-88a4-cf672fcf02b9-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps>
+                        <step start='1676823244452' status='passed' stop='1676823244501'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='f98ae102-a582-4ea4-bbe9-903fd772298f-attachment.json' type='application/json' size='47'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1676823245003' status='passed' stop='1676823247521'>
+                            <name>GET /session/:sessionId/title</name>
+                            <title>GET /session/:sessionId/title</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676823247565' status='passed' stop='1676823248415'>
+            <name>When i input email as "&lt;email>" and password as "&lt;password>"</name>
+            <title>When i input email as "&lt;email>" and password as "&lt;password>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps>
+                <step start='1676823247574' status='passed' stop='1676823247675'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='93b7d369-2afe-43c5-976c-73bf32f017fc-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='b8b159dc-02c8-4578-8488-9323ad5d7853-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676823247698' status='passed' stop='1676823247793'>
+                    <name>POST /session/:sessionId/element/dc97a5d1-d643-49df-bbbb-518d3dc6056a/clear</name>
+                    <title>POST /session/:sessionId/element/dc97a5d1-d643-49df-bbbb-518d3dc6056a/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676823247793' status='passed' stop='1676823248038'>
+                    <name>POST /session/:sessionId/element/dc97a5d1-d643-49df-bbbb-518d3dc6056a/value</name>
+                    <title>POST /session/:sessionId/element/dc97a5d1-d643-49df-bbbb-518d3dc6056a/value</title>
+                    <attachments>
+                        <attachment title='Request' source='2a64b03b-45fa-4850-939c-a6b40a609c30-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676823248040' status='passed' stop='1676823248111'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a7895c12-ecec-44ac-9271-9d1e957a31fd-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='5665825a-fbec-487a-a6a6-8fff3006976d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676823248118' status='passed' stop='1676823248191'>
+                    <name>POST /session/:sessionId/element/ced8c8df-72c6-49fb-9d8a-99e5bdde65fb/clear</name>
+                    <title>POST /session/:sessionId/element/ced8c8df-72c6-49fb-9d8a-99e5bdde65fb/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1676823248191' status='passed' stop='1676823248412'>
+                    <name>POST /session/:sessionId/element/ced8c8df-72c6-49fb-9d8a-99e5bdde65fb/value</name>
+                    <title>POST /session/:sessionId/element/ced8c8df-72c6-49fb-9d8a-99e5bdde65fb/value</title>
+                    <attachments>
+                        <attachment title='Request' source='45f05084-3e95-4bd5-b7e1-cdb7e4c150e7-attachment.json' type='application/json' size='26'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676823248415' status='passed' stop='1676823248624'>
+            <name>And i click on button "login"</name>
+            <title>And i click on button "login"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps>
+                <step start='1676823248417' status='passed' stop='1676823248485'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f28b15f6-02ca-4569-8ff0-c87d6db13618-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='ff0226c6-a19d-4365-aab8-a1020b1066ef-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1676823248490' status='passed' stop='1676823248623'>
+                    <name>POST /session/:sessionId/element/0a922fc3-165c-4fb7-9c22-9a9c41b04e14/click</name>
+                    <title>POST /session/:sessionId/element/0a922fc3-165c-4fb7-9c22-9a9c41b04e14/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1676823248624' status='broken' stop='1676823248920'>
+            <name>Then i must remain on login page displaying a message "&lt;errorMessage>"</name>
+            <title>Then i must remain on login page displaying a message "&lt;errorMessage>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps>
+                <step start='1676823248627' status='broken' stop='1676823248920'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c8f21d84-9d75-4d30-9f30-9fa66bb8bcc4-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: The selector "//*[@id="root"]/div/div/div/div[2]/div/div[1]//////" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "//*[@id="root"]/div/div/div/div[2]/div/div[1]//////" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Object.executeCommandBe (file:///D:/SANBERCODE/QA-AUTOMATION/TUGAS-UI-AUTOMATION-CUCUMBER/wdio-with-cucumber/node_modules/expect-webdriverio/lib/utils.js:41:16)
+                    at async World.&lt;anonymous> (D:\SANBERCODE\QA-AUTOMATION\TUGAS-UI-AUTOMATION-CUCUMBER\wdio-with-cucumber\features\step-definitions\steps.js:39:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676823248921' status='passed' stop='1676823248922'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
