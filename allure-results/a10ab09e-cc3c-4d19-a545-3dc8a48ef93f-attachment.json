@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root > div > div > div > div.css-1w7v3tn > div > div.chakra-alert.css-qwanz3\"}\n  (Session info: chrome=110.0.5481.104)",
-  "stacktrace": "Backtrace:\n\t(No symbol) [0x006537D3]\n\t(No symbol) [0x005E8B81]\n\t(No symbol) [0x004EB36D]\n\t(No symbol) [0x0051D382]\n\t(No symbol) [0x0051D4BB]\n\t(No symbol) [0x00553302]\n\t(No symbol) [0x0053B464]\n\t(No symbol) [0x00551215]\n\t(No symbol) [0x0053B216]\n\t(No symbol) [0x00510D97]\n\t(No symbol) [0x0051253D]\n\tGetHandleVerifier [0x008CABF2+2510930]\n\tGetHandleVerifier [0x008F8EC1+2700065]\n\tGetHandleVerifier [0x008FC86C+2714828]\n\tGetHandleVerifier [0x00703480+645344]\n\t(No symbol) [0x005F0FD2]\n\t(No symbol) [0x005F6C68]\n\t(No symbol) [0x005F6D4B]\n\t(No symbol) [0x00600D6B]\n\tBaseThreadInitThunk [0x76B300F9+25]\n\tRtlGetAppContainerNamedObjectPath [0x77A47BBE+286]\n\tRtlGetAppContainerNamedObjectPath [0x77A47B8E+238]\n"
-}

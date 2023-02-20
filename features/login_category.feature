@@ -18,6 +18,7 @@ Feature: To test the login functionality in "kasirAja"
     Then i must navigate to dashboard page
 
   Scenario: i add category with valid input
+    Given i am on the dashboard page
     When i click on category menu
     When i click on button tambah #kategori
     When i input name of category as "laptop" and description as "laptop"

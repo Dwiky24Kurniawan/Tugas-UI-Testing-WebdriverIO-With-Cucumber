@@ -41,6 +41,11 @@ Then('i must remain on login page displaying a message {string}', async function
     await expect(LoginPage.messageElement).toHaveTextContaining(errorMessageLogin);
 });
 
+// CATEGORY
+Given('i am on the dashboard page', async () => {
+    await expect(browser).toHaveUrl('https://kasirdemo.belajarqa.com/dashboard');
+});
+
 When('i click on category menu', async () => {
     await dashboardPage.categoryMenuElement.click();
 });
